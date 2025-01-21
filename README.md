@@ -4,7 +4,7 @@ MA213_Project
 # Sleep and Academic Performance Analysis
 
 ## Overview
-This project investigates the correlation between sleep habits and academic performance among university students. Using statistical and data analysis techniques, the study explores how factors such as sleep duration, sleep quality, stress levels, and caffeine consumption influence students' final grades.
+This project investigates the correlation between sleep habits and academic performance among university students. Using statistical methods and visualization techniques in R, the study explores how factors like sleep duration, quality, stress levels, and caffeine consumption influence final grades.
 
 ## Objectives
 The primary objectives of this project are:
@@ -15,7 +15,7 @@ The primary objectives of this project are:
 5. To explore the role of caffeine consumption in the sleep-academic performance relationship.
 
 ## Data Sources
-The analysis is based on multiple datasets:
+The analysis is based on datasets obtained from:
 1. [StatCrunch Dataset - Sleep and GPA](https://www.statcrunch.com/reports/view?reportid=23762&tab=preview)
 2. [PNAS Dataset - Sleep Duration and GPA](https://www.pnas.org/doi/10.1073/pnas.2209123120)
 3. [StatCrunch Report - Sleep and Academic Performance](https://www.statcrunch.com/reports/view?reportid=31860&tab=preview)
@@ -28,13 +28,13 @@ The datasets include variables such as:
 - Demographic details (gender, age)
 
 ## Methodology
-1. **Data Cleaning:** Removing duplicates, handling missing data, and standardizing labels.
-2. **Exploratory Data Analysis (EDA):** Visualizing sleep patterns, GPA distributions, and other correlations.
+1. **Data Cleaning:** Handled missing data, standardized labels, and removed duplicates.
+2. **Exploratory Data Analysis (EDA):** Analyzed patterns and trends in sleep habits and GPA distributions using R libraries like `ggplot2` and `dplyr`.
 3. **Statistical Analysis:**
-   - Correlation coefficients (e.g., between sleep duration and GPA).
-   - Hypothesis testing for differences in means (e.g., deep vs. light sleep).
-   - Regression models to predict GPA based on sleep-related factors.
-4. **Visualization Tools:** Plotting relationships using Python libraries such as `matplotlib` and `seaborn`.
+   - Correlation analysis (`cor.test`) to explore relationships.
+   - Hypothesis testing using `t.test` and `ANOVA`.
+   - Regression models (`lm`) to predict GPA based on sleep and related factors.
+4. **Visualization Tools:** Created plots with `ggplot2` to illustrate findings.
 
 ## Hypotheses
 The project addresses the following hypotheses:
@@ -45,8 +45,9 @@ The project addresses the following hypotheses:
 5. Caffeine consumption impacts the sleep-academic performance relationship.
 
 ## Results
-- Initial findings indicate a positive correlation between consistent sleep schedules and higher GPA.
-- Students who reported deeper sleep tended to perform better academically.
-- Excessive caffeine consumption showed a negative impact on sleep quality and GPA.
+- A positive correlation was found between consistent sleep schedules and higher GPA.
+- Deep sleep quality was linked to improved academic performance.
+- Excessive caffeine consumption negatively affected both sleep quality and GPA.
+
 
 
